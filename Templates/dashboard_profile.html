@@ -1,0 +1,210 @@
+{% extends 'loggedin_base.html' %}
+
+{% block loggedin_content %}
+
+
+<div class="row">
+    <div class="col-10 mx-auto py-5">
+        <div class="row h5 text-secondary border-bottom border-2 border-secondary px-1">
+            <p><i class="bi bi-file-person"></i> Personal Details</p>
+        </div>
+        <div class="row ">
+            <form class=" row g3">
+                <div class="col-md-6 py-2">
+                    <label for="inputEmail4" class="form-label">First Name:</label>
+                    <input class="form-control" disabled placeholder="Aryan">
+                </div>
+                <div class="col-md-6 py-2">
+                    <label for="inputPassword4" class="form-label">Last Name:</label>
+                    <input class="form-control" disabled placeholder="Sharma">
+                </div>
+                <div class="col-12 pb-2">
+                    <label for="inputAddress" class="form-label">Email:</label>
+                    <input type="text" class="form-control" disabled placeholder="aryansharma@gmail.com">
+                </div>
+
+                <div class="col-md-6 pb-2">
+                    <label for="inputEmail4" class="form-label">Father's/Gaurdian's Name:</label>
+                    <input class="form-control" disabled placeholder="Rajeev Kumar">
+                </div>
+
+                <div class="col-md-6 pb-2">
+                    <label for="inputPassword4" class="form-label">Mother's/Gaurdian's name:</label>
+                    <input class="form-control" disabled placeholder="Ruchi Sharma">
+                </div>
+                <div class="col-12 pb-2">
+                    <label for="inputAddress2" class="form-label">Address:</label>
+                    <input type="text" class="form-control" id="inputAddress2" disabled
+                        placeholder="Bakli Phatak bijnor">
+                </div>
+                <div class="col-md-6 pb-2">
+                    <label for="inputEmail4" class="form-label">Student's Phone:</label>
+                    <input class="form-control" disabled placeholder="7983981756">
+                </div>
+                <div class="col-md-6 pb-2">
+                    <label for="inputPassword4" class="form-label">Parent's/Guardian's Phone:</label>
+                    <input class="form-control" disabled placeholder="9410601970">
+                </div>
+
+                <div class="col-md-3 pb-2">
+                    <label for="inputPassword4" class="form-label">Blood Group:</label>
+                    <input class="form-control" disabled placeholder="B+">
+                </div>
+
+                <div class="col-md-3 pb-2">
+                    <label for="inputPassword4" class="form-label">Gender:</label>
+                    <input class="form-control" disabled placeholder="Male">
+                </div>
+
+                <div class="col-md-3 pb-2">
+                    <label for="inputPassword4" class="form-label">Conveyance:</label>
+                    <input class="form-control" disabled placeholder="Self">
+                </div>
+
+                <div class="col-md-3 pb-2">
+                    <label for="inputPassword4" class="form-label">DOB</label>
+                    <input class="form-control" disabled placeholder="05/03/2004">
+                </div>
+
+
+
+
+
+
+            </form>
+
+
+        </div>
+        <div class="h5 row mt-5 text-secondary border-bottom border-2 border-secondary px-1">
+            <p><i class="bi bi-journal-text"></i> Academic Details</p>
+        </div>
+        <div class="row">
+            <form class=" row g3">
+                <div class="col-md-3 py-2">
+                    <label for="inputEmail4" class="form-label">Class:</label>
+                    <input class="form-control" disabled placeholder="11th">
+                </div>
+                <div class="col-md-3 py-2">
+                    <label for="inputPassword4" class="form-label">Section:</label>
+                    <input class="form-control" disabled placeholder="A">
+                </div>
+
+                <div class="col-md-6 py-2">
+                    <label for="inputPassword4" class="form-label">Class Teacher:</label>
+                    <input class="form-control" disabled placeholder="Sindhu Bonthu">
+                </div>
+
+
+                <div class="col-md-3 pb-2">
+                    <label for="inputAddress" class="form-label">Class Roll Number:</label>
+                    <input type="text" class="form-control" disabled placeholder="12">
+                </div>
+
+                <div class="col-md-6 pb-2">
+                    <label for="inputEmail4" class="form-label">Admission Number:</label>
+                    <input class="form-control" disabled placeholder="20170047765">
+                </div>
+
+                <div class="col-md-3 pb-2">
+                    <label for="inputAddress" class="form-label">Date Of Admission:</label>
+                    <input type="text" class="form-control" disabled placeholder="12/04/2017">
+                </div>
+
+                <div class="col-md-4 pb-2">
+                    <label for="inputPassword4" class="form-label">Subject 1:</label>
+                    <input class="form-control" disabled placeholder="English">
+                </div>
+
+                <div class="col-md-4 pb-2">
+                    <label for="inputPassword4" class="form-label">Subject 2:</label>
+                    <input class="form-control" disabled placeholder="Physics">
+                </div>
+
+                <div class="col-md-4 pb-2">
+                    <label for="inputPassword4" class="form-label">Subject 3:</label>
+                    <input class="form-control" disabled placeholder="Chemistry">
+                </div>
+
+                <div class="col-md-4 pb-2">
+                    <label for="inputPassword4" class="form-label">Subject 4:</label>
+                    <input class="form-control" disabled placeholder="Mathematics Core">
+                </div>
+
+                <div class="col-md-4 pb-2">
+                    <label for="inputPassword4" class="form-label">Subject 5:</label>
+                    <input class="form-control" disabled placeholder="Computer Science">
+                </div>
+
+                <div class="col-md-4 pb-2">
+                    <label for="inputPassword4" class="form-label">Subject 6:</label>
+                    <input class="form-control" disabled placeholder="NONE">
+                </div>
+
+
+
+
+
+
+            </form>
+
+        </div>
+
+
+        <div class="h5 row mt-5 text-secondary border-bottom border-2 border-secondary px-1">
+            <p><i class="bi bi-wallet2"></i> Fee Details</p>
+        </div>
+        <div class="row">
+            <div class="col">
+
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col-2">S No.</th>
+                        <th scope="col-4">Month</th>
+                        <th scope="col-4">Ammount</th>
+                        <th scope="col-2">Date of Deposition  </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>April</td>
+                        <td>5900</td>
+                        <td >07/04/2023</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>May</td>
+                        <td>2200</td>
+                        <td >02/04/2023</td>
+                      </tr>
+                      <tr >
+                        <th scope="row">3</th>
+                        <td>June</td>
+                        <td>00</td>
+                        <td >-</td>
+                      </tr>
+                      <tr class="text-danger fw-bold"  >
+                        <th scope="row">4</th>
+                        <td>July</td>
+                        <td>2200</td>
+                        <td >Not Paid Yet!</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+            </div> 
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+{% endblock %}
