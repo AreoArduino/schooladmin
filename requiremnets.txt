@@ -1,4 +1,0 @@
-sqlalchemy
-sqlalchemy.orm
-Flask
-gunicorn
